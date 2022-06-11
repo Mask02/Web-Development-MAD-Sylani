@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <style>
+            th {
+                min-width: 100px;
+            }
+
+        </style>
+
+
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <center>
+                    <table border="1px">
+                        <tr>
+
+                            <th><a href="index.html"><img src="resources/images/logo.png" alt=""></a></th>
+                            <th><a href="index.html">Home</a></th>
+                            <th><a href="about.html">About</a></th>
+                            <th><a href="gallery.html">Gallery</a></th>
+                            <th><a href="media.html">Media</a></th>
+                            <th><a href="contact.html">Contact</a></th>
+                            <th><a href="login.html">Login</a></th>
+                            <th><a href="register.html">Register</a></th>
+
+                        </tr>
+                    </table>
+                </center>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+
+        <hr>
+        
+        <center>
+            <h1>This is Login page</h1>
+            <hr>
+            <h2>Please register to continue</h2>
+            <p>All the fields are required.</p>
+            <hr>
+        </center>
+        
+        <fieldset>
+            <legend>Regsiter</legend>
+        
+            <p>
+                <label for="fullName">Full Name:</label><br>
+                <input type="text" id="fullName" name="fullName" placeholder="Full Name" />
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Email" />
+            </p>
+        
+            <p>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Password" />
+            </p>
+        
+            <p>
+                Gender:
+                <br>
+                <label for="male">Male:</label>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="female">Female:</label>
+                <input type="radio" name="gender" value="female" id="female">
+            </p>
+        
+            <p>
+                Hobbies:
+                <br>
+                <label for="music">Music:</label>
+                <input type="checkbox" name="hobbies" value="music" id="music" checked>
+                <label for="art">Art</label>
+                <input type="checkbox" name="hobbies" value="art" id="art">
+                <label for="painting">Painting</label>
+                <input type="checkbox" name="hobbies" value="painting" id="painting">
+            </p>
+        
+            <p>
+                Country:
+                <br>
+                <select name="country">
+                    <option value=""></option>
+                    <option value="Saudia">Saudi Arabia</option>
+                    <option value="pakistan" selected>Pakistan</option>
+                    <option value="england">England</option>
+                </select>
+            </p>
+        
+            <p>
+                DOB:
+                <br>
+                <input type="date" name="dob">
+            </p>
+        
+            <p>
+                Upload your photo:
+                <br>
+                <input type="file" name="profilePhoto">
+            </p>
+        
+            <p>
+                <button>Register</button>
+            </p>
+            <p>
+                <a href="login.html">Already a user?</a>
+            </p>
+        
+        </fieldset>
+        
+        <center>
+            <hr>
+        
+            <footer>
+                <p>Copyright &copy; 2021. All rights reserved.</p>
+            </footer>
+        </center>
+        </main>
+
+        <footer></footer>
+    </body>
+
+</html>
