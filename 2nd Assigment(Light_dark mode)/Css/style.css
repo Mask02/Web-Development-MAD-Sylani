@@ -1,28 +1,30 @@
+*{  
+    box-sizing: border-box;
+}
 
-.header {
+body header , nav {
     display: flex;
-    justify-content: space-around;
-    padding-top: 5px;
+    justify-content:space-around;
+    padding-top: 7px;
     height: 24px;
+}
+#theme{
+    background-color: black;
+    color: white;
 }
 body {
     background-color:white;
 }
-.dark-mode {
-    background-color: black;
-    color: white;
-}
-.b{
-    background-color: black;
-    color:white;
-}
+
 .logo{
-    height: 50px;
-    width: 150px;
+
+    height: 30px;
+    width: 120px;
+   margin-right: 400px;
 }
 
  .btn {
-     height: 36px;
+     height: 30px;
      width: 90px;
      background-color: white;
      color: rgb(24, 2, 20);
@@ -30,23 +32,28 @@ body {
      border: 2px solid black;
    
  }
-.btn-d{
-    height: 36px;
+  .btn-d{
+    height: 30px;
         width: 90px;
-        background-color:black;
-        color: white;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         border-radius: 6px;
-        border: 2px solid white;
-       
+        border: 2px solid rgb(255, 255, 255);
+        
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 .btn-d:hover{
 background-color: white;
     color: black;
 }
-.btn:hover {
-    background-color:rgb(0, 0, 0);
-    color:white;
-    
+
+
+.table{
+    align-items: center;
 }
 
 .a{
@@ -57,30 +64,24 @@ background-color: white;
     
 }
 
-.m-heading {
+h4{
     display: flex;
     justify-content: center;
     padding-top: 30px;
     font-size: large;
 }
-
-.table {
-    font-size: medium;
-  justify-content: center;
- margin-left:40px;
-
+.table td {
+    padding:7px;
+    border: .04rem solid rgb(0, 0, 0);
+   
 }
-.table-l{
+.t td{
+    padding: 7px;
+    border: 1px solid white;
+    
+}
 
-   font-size: medium;
-   justify-content: center;
-   margin-left:40px;
-}
-td,
-th {
-    padding: 8px;
-}
-.footer{
-    padding-top: 70px;
-    font-size:large;
+footer p{
+  text-align: center;
+    /* border: 2px solid red; */
 }
