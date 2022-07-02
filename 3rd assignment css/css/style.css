@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(14, 7, 90);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+header {
+    box-shadow: 0 0 10px 0 rgb(14, 7, 90);
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.logo_text b {
+    letter-spacing: 3px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.logo_text span {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: lighter;
+    
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+nav ul li a:hover{
+    text-decoration:underline 2px blue;
+
+}
+
+
+main {
+    padding: 0 10%;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+
+}
+
+.intro img {
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.intro h3 {
+    position: absolute;
+    align-self: center;
+    font-size: 3.5vw;  
+}
+
+.intro h3 b {
+    color: rgb(14, 7, 90);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    background-color: transparent rgba(0, 0, 0, 0.3);
+}
+
+.intro span {
+    color: white;
+}
+
+
+.projects h3 {
+    font-size: x-large;
+font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.projects hr {
+    color: rgba(128, 128, 128, 0.63);
+    margin-top: 20px;
+
+}
+
+.projects-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.project img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    filter: brightness(100%);
+}
+
+.project h4 {
+    position: absolute;
+    align-self: flex-start;
+    padding: 2px 4px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: lighter;
+    background-color: rgb(14, 7, 90);
+    color: white;
+    font-size: medium;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.3s linear;
+}
+
+.about h3 {
+    font-size: x-large;
+}
+
+.about p {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: justify;
+
+}
+
+.designers {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.designer{
+    width: 225px;
+    margin: 5px;
+    background-color: #f1f1f198;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.designer img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.designer h2 {
+    margin-top: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: x-large;
+}
+
+.designer h4 {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.designer p {
+    font-size: medium;
+}
+
+.designer button {
+
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    background-color: rgb(14, 7, 90);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(14, 7, 90);
+}
+
+.designer button:hover {
+    border: 2px solid rgb(14, 7, 90);
+    background-color: white;
+    color: rgb(14, 7, 90);
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact h3 {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 1.5vw;
+}
+
+.contact p {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.contact input {
+    font-family: 'Baloo Bhai 2', cursive;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(14, 7, 90);
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: rgb(14, 7, 90);
+    color: white;
+    margin-top: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 10px;
+    border: 2px solid rgb(14, 7, 90);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: white;
+    color: rgb(14, 7, 90);
+}
+
+.map img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(14, 7, 90);
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: lighter;
+    padding: 10px 40px;
+}
