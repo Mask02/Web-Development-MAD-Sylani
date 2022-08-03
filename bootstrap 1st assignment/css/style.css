@@ -3,6 +3,37 @@ body{
     font-family: 'Baloo Bhaina 2', cursive;
 }
 #logo:hover{
-color: blue;
+/* color: blue; */
 }
-    
+
+.main{
+    background: url(/resources/images/1.jpeg) no-repeat center center/cover;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    clip-path : polygon(0 0, 100% 0, 100% 80%,0% 95%, 0% 93%);
+    padding-top: 130px;
+}
+
+.main-text{
+    margin-bottom: 30px;
+    filter: brightness(90%);
+}
+.light-text{
+    color: grey;
+}
+.card-img-top:hover{
+
+    filter: brightness(60%);
+}
+.fab{
+    color: gray;
+}
+footer{
+    padding-top: 80px;
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
+    outline: 40px;
+}
+.fa-star-sharp{
+    color: yellow;
+}
