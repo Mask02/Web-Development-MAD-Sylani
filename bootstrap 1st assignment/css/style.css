@@ -37,3 +37,6 @@ footer{
 .fa-star-sharp{
     color: yellow;
 }
+.top-cards:hover{
+   z-index: 1;
+}
